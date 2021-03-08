@@ -167,13 +167,9 @@ main(int argc, char **argv)
 					die("cannot open file for writing.");
 				}
 			}
-			else if (hero_index == -1)
-			{
-				die("-p used before -h.");
-			}
 			else
 			{
-				die("-p parameter is malformed.");
+				die("-o parameter is malformed.");
 			}
 		}
 	}
