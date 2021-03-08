@@ -1,0 +1,10 @@
+<NotepadPlus>
+    <Project name="dotape_cli">
+        <File name="W:\dotape\src\main.cpp" />
+        <Folder name="dota">
+            <Folder name="7_28c">
+                <File name="W:\dotape\src\dota\7_28c\npc_heroes.h" />
+            </Folder>
+        </Folder>
+    </Project>
+</NotepadPlus>
