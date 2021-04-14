@@ -6,7 +6,7 @@
 #include <sstream>
 #include <iomanip>
 #include <string.h>
-#include "dota/7_28c/npc_heroes.h"
+#include "dota/7_29/npc_heroes.h"
 
 #define MAX_HERO_COUNT 256
 
@@ -38,11 +38,11 @@ main(int argc, char **argv)
 	int depth              = 0;
 	hero *heroes           = new hero[MAX_HERO_COUNT];
 	hero *heroes_default   = new hero[MAX_HERO_COUNT];
-	const size_t linecount = sizeof(npc_heroes7_28c)/sizeof(npc_heroes7_28c[0]);
+	const size_t linecount = sizeof(npc_heroes7_29)/sizeof(npc_heroes7_29[0]);
 	
 	for (size_t i = 0; i < linecount; i++)
 	{
-		line = npc_heroes7_28c[i];
+		line = npc_heroes7_29[i];
 		
 		trim(line, "\t ");
 		if (line.rfind("\"npc_dota_hero_") == 0)
@@ -181,7 +181,7 @@ main(int argc, char **argv)
 		
 		for (size_t i = 0; i < linecount; i++)
 		{
-			line = npc_heroes7_28c[i];
+			line = npc_heroes7_29[i];
 			std::string	linetrim(line);
 			
 			trim(linetrim, "\t ");
